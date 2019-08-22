@@ -12,6 +12,7 @@
 		2A65FABD230D083400171A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A65FABB230D083400171A1A /* Main.storyboard */; };
 		2A65FABF230D083500171A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A65FABE230D083500171A1A /* Assets.xcassets */; };
 		2A65FAC2230D083500171A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A65FAC0230D083500171A1A /* LaunchScreen.storyboard */; };
+		2A65FACA230D4A8700171A1A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A65FAC9230D4A8700171A1A /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2A65FABE230D083500171A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A65FAC1230D083500171A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A65FAC3230D083500171A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A65FAC9230D4A8700171A1A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		2A65FAB6230D083400171A1A /* iOSRegisterForm */ = {
 			isa = PBXGroup;
 			children = (
+				2A65FACC230D4D4500171A1A /* storyboards */,
+				2A65FACB230D4D0100171A1A /* viewControllers */,
 				2A65FAB7230D083400171A1A /* AppDelegate.swift */,
-				2A65FAB9230D083400171A1A /* ViewController.swift */,
-				2A65FABB230D083400171A1A /* Main.storyboard */,
 				2A65FABE230D083500171A1A /* Assets.xcassets */,
 				2A65FAC0230D083500171A1A /* LaunchScreen.storyboard */,
 				2A65FAC3230D083500171A1A /* Info.plist */,
 			);
 			path = iOSRegisterForm;
+			sourceTree = "<group>";
+		};
+		2A65FACB230D4D0100171A1A /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A65FAB9230D083400171A1A /* ViewController.swift */,
+				2A65FAC9230D4A8700171A1A /* ProfileViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		2A65FACC230D4D4500171A1A /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2A65FABB230D083400171A1A /* Main.storyboard */,
+			);
+			path = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A65FACA230D4A8700171A1A /* ProfileViewController.swift in Sources */,
 				2A65FABA230D083400171A1A /* ViewController.swift in Sources */,
 				2A65FAB8230D083400171A1A /* AppDelegate.swift in Sources */,
 			);
